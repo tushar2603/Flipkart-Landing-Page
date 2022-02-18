@@ -264,3 +264,19 @@ footer .copy_right{
     text-align: center;
     border-top: 1px solid #ccc;
 }
+
+@media(max-width:960px){
+    .poster{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+        
+    }
+    
+    .poster .post_img img{
+        height: 260px;
+        width: 500px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    }
+}
